@@ -30,8 +30,9 @@ Four software packages are used for these cases, which are:
 # Using FLP Solver
 
 1. You can find the manual for FLP Solver from the official [website](https://people.bath.ac.uk/ge277/index.php/flp-spreadsheet-solver/).
-2. To run the FLP Solver for the San Francisco case, go to the folder of 'FLP_Solver' and open the document of 'FLP_Spreadsheet_Solver_v2.51_SF_Case.xlsm'. This file is self-contained. The 'FLP Solver Console' tab contains model specs, and the tab of '1. Locations' contains the IDs of demand locations and potential facility sites. The distance matrix is saved in the tab of '2.Costs and Coverage'.
+2. To run the FLP Solver for the San Francisco case, go to the folder of ```FLP_Solver``` and open the Excel document of ```FLP_Spreadsheet_Solver_v2.51_SF_Case.xlsm```. This file is self-contained. The ```FLP Solver Console``` tab contains model specs, and the tab of ```1. Locations``` contains the IDs of demand locations and potential facility sites. The distance matrix is saved in the tab of ```2.Costs and Coverage```.
 3. To run an MCLP, you could change the number of facilities in the 'FLP Solver Console' tab. To run an LSCP, you would need to run many MCLPs with number of facilities ranging from 1 to the maximum.
+4. Note that we only provide the code for the San Francisco store case.
 
 # Using Maxcovr
 
